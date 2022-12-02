@@ -157,8 +157,9 @@ p {
 }
 
 .rate {
-    text-align: center;
-    vertical-align: middle;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     color: var(--clr-White);
 }
 
@@ -185,7 +186,7 @@ p {
 }
 
 .rate:hover {
-    background-color: var(--clr-Orange);
+    background-color: var(--clr-Orange) !important;
 }
 
 .attribution {
